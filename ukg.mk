@@ -16,7 +16,7 @@
 #
 
 # name
-PRODUCT_RELEASE_NAME := ATTGS4
+PRODUCT_RELEASE_NAME := jflteatt
 
 # device
 $(call inherit-product-if-exists, device/samsung/jflteatt/full_jflteatt.mk)
@@ -41,11 +41,11 @@ PRODUCT_PROPERTY_OVERRIDES += ro.buildzipid=ukg.jflteatt.$(shell date +%m%d%y).$
 # overrides
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BUILD_NUMBER=573038 \
-    PRODUCT_NAME=jflteatt \
+    PRODUCT_NAME=jflteuc \
     TARGET_BUILD_TYPE=user \
     BUILD_VERSION_TAGS=release-keys \
-    PRIVATE_BUILD_DESC="jflteatt-user 4.2.2 JDQ39 573038 release-keys" \
-    BUILD_FINGERPRINT="samsung/jflteatt:4.2.2/JDQ39/573038:user/release-keys"
+    BUILD_FINGERPRINT="samsung/jflteuc/jflteatt:4.2.2/JDQ39/I337UCUAMDL:user/release-keys" \
+    PRIVATE_BUILD_DESC="jflteuc-user 4.2.2 JDQ39 I337UCUAMDL release-keys"
 
 # hybrid
 PRODUCT_COPY_FILES +=  \
